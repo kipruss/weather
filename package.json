@@ -2,6 +2,7 @@
   "name": "weather",
   "version": "0.1.0",
   "repository": "https://github.com/kipruss/weather",
+  "homepage": "https://kipruss.github.io/weather",
   "author": "Konstantin Bajev",
   "license": "MIT",
   "private": true,
