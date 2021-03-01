@@ -1,0 +1,9 @@
+{
+    "editor.tabSize": 2,
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }

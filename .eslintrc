@@ -1,0 +1,42 @@
+{
+  "root": true,
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "no-duplicate-imports": [
+      "error"
+    ],
+    "sort-imports": [
+      "warn",
+      {
+        "ignoreDeclarationSort": true
+      }
+    ],
+    "sort-vars": "warn",
+    "prettier/prettier": "warn",
+    "curly": [
+      "warn",
+      "all"
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 100,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "prefer-template": "warn",
+    "no-nested-ternary": "warn",
+    "no-else-return": "warn"
+  }
+}
