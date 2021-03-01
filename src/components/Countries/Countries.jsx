@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import ReactFlagsSelect from 'react-flags-select';
 import { countriesList, countriesNames } from './constants';
+import './Countries.css';
 
 const Countries = ({ country, setCountry }) => {
   const countriesLabels = useMemo(() => {
@@ -16,6 +17,7 @@ const Countries = ({ country, setCountry }) => {
 
   return (
     <ReactFlagsSelect
+      selectButtonClassName="flags-select-button"
       selected={country}
       countries={countriesList}
       customLabels={countriesLabels}

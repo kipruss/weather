@@ -13,7 +13,7 @@ function App() {
 
   const getWeather = () => {
     try {
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&APPID=${process.env.REACT_APP_APPID}`;
+      const url = `//api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&APPID=${process.env.REACT_APP_APPID}`;
 
       fetch(url)
         .then((response) => {
